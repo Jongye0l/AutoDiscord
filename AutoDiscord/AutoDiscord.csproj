@@ -537,7 +537,7 @@
 
     <Target Name="AfterBuild">
         <Copy SourceFiles="bin/Debug/AutoDiscord.dll" DestinationFolder="D:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\Mods\AutoDiscord"/>
-        <!-- Copy SourceFiles="bin/Release/AutoDiscord.dll" DestinationFolder="D:\ModRelease/AutoDiscord"/ -->
+        <Copy SourceFiles="bin/Release/AutoDiscord.dll" DestinationFolder="D:\ModRelease/AutoDiscord"/>
     </Target>
 
 </Project>
